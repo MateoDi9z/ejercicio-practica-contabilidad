@@ -1,3 +1,5 @@
+from lib import *
+
 def main():
   """
     ### Sistema de contabilidad
