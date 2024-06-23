@@ -32,8 +32,8 @@ def main():
       print("Not implemented!")
     elif entrada == "2":
       print("Not implemented!")
-    elif entrada == "3":
-      print("Not implemented!")
+    else:
+      break
 
 main()
 
