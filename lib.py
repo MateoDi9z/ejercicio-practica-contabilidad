@@ -35,7 +35,7 @@ def ingresos() -> dict:
   f = open(file_in, "r")
   registros = f.read().strip().split("\n")
 
-  if len(registros) < 2: return temp
+  if len(registros) == 0: return temp
 
   for registro in registros:
     id, sender, amount = tuple(registro.split("-"))
@@ -53,7 +53,7 @@ def gastos() -> dict:
   f = open(file_out, "r")
   registros = f.read().strip().split("\n")
 
-  if len(registros) < 2: return temp
+  if len(registros) == 0: return temp
 
   for registro in registros:
     id, receiver, amount = tuple(registro.split("-"))
