@@ -1,3 +1,5 @@
+
+[![Funcionamiento](https://github.com/MateoDi9z/ejercicio-practica-contabilidad/actions/workflows/python-tests.yml/badge.svg)](https://github.com/MateoDi9z/ejercicio-practica-contabilidad/actions/workflows/python-tests.yml)
 # Sistema de contabilidad para practicar python
 
 Sistema para registrar salidas y entradas de dinero.
