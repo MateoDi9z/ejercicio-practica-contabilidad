@@ -1,50 +1,49 @@
 from lib import *
 
+# =======================================
+# |      Creado por Mateo Diaz :)       #
+# |  Contactame cualquier duda o idea.  #
+# =======================================
+
+# TODO: Pone aca tu nombre!
+NOMBRE = "Mateo" # <-
 
 def main():
-    """
-        ### Sistema de contabilidad
-
-        #### Funcionalidades a desarrollar:
-          - Crear una entrada de dinero
-          - Crear una salida de dinero
-          - Ver los ingresos
-          - Ver los gastos separados por destino
-          - Calcular saldo de cuenta
-          - Ver los ingresos separados por inicial de nombre
-          - Ver los gastos de un único destino
-    """
+    """ ### Sistema de contabilidad """
 
     print("\nBienvenido a el sistema de contabilidad!")
+    print(f"de: {NOMBRE}")
 
     while True:
-        print("\nElija una opción! \n")
+        print("\nMENU: Elija una opción! \n")
         print(" 1 - Crear entrada")
         print(" 2 - Crear salida")
-
+        # Ejemplo: print(" 3 - Ver los ingresos")
         # TODO: Crea el resto de opciones aca :)
 
         print(" 3 - Salir")
+        
         entrada = input("> ")
-
         print("")
-        # TODO: Definí una función para resolver cada opción
+
+        # TODO: Definí una función para resolver cada opción (Abajo de todos los ifs)
+
+        # TODO: Crea todas las opciones necesarias aca!
         if entrada == "1":
+            # TODO: Aca llama a la función para resolver el ejercicio!
+            # (Y borra el print una vez hecho)
             print("Not implemented!")
+            # Ejemplo: crear_entrada()
         elif entrada == "2":
             print("Not implemented!")
         else:
             break
 
 
-main()
+#####################################
+# * Implementa tus funciones aca! * #
+#####################################
 
-"""
-Tabla de contabilidad
+# Ejemplo: def crear_entrada():
 
-Gastos | Ingresos
------------------
-    10 | 5
-
-Balance: Ingresos - Gastos = 5 - 10 = -5
-"""
+main()  # <- Deja esto en la ultima linea del código!

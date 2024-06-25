@@ -1,3 +1,10 @@
+"""
+    Interfaz entre el archivo donde se guardan
+    los datos y la aplicación
+
+    Realizado por Mateo Diaz
+"""
+
 file_in = "datos/in.txt"
 file_out = "datos/out.txt"
 
@@ -41,8 +48,6 @@ def ingresos() -> dict:
     temp = dict()
     f = open(file_in, "r")
     registros = f.read().strip().split("\n")
-
-    print(registros, len(registros))
 
     if len(registros[0]) < 2:
         return temp

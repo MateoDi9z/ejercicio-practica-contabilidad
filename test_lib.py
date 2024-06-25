@@ -2,6 +2,9 @@ import unittest
 import os
 from lib import *
 
+# Tests para verificar integridad de la librería interfaz de archivos
+# Probar ejecutando `pytest`
+
 class TestLib(unittest.TestCase):
 
     def setUp(self):
